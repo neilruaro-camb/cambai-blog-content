@@ -323,7 +323,7 @@ Organize content into hub-and-spoke clusters:
 
 ### Phase 3: Content Expansion — 450+ Pages (Weeks 5-24)
 
-> **Expanded scope**: Inspired by pSEO at scale (see `content-outlines/EXPANDED-CONTENT-PLAN.csv` for full 450+ entry plan). This phase now includes 40 blog posts + 360+ learn/shadow pages across 14 categories, published at a sustained pace of 18+ pages/week.
+> **Expanded scope**: Inspired by pSEO at scale (see `content-outlines/EXPANDED-CONTENT-PLAN.csv` for full 450+ entry plan). This phase includes 40 blog posts + 410+ learn/shadow pages across 14 categories. Learn pages publish at **10/day** starting Week 5, ramping up incrementally.
 
 #### 3A. Blog Posts (40 posts, 2,000+ words, 4/week)
 - [ ] Publish 10 existing outlined blog posts (Weeks 5-7)
@@ -335,7 +335,7 @@ Organize content into hub-and-spoke clusters:
   - 4 developer/API posts (getting started, SDKs, SRT/RTMP integration)
   - 4 creator/how-to posts (YouTube dubbing, monetization, corporate training)
 
-#### 3B. Learn Pages — pSEO at Scale (360+ pages, 800-1,500 words, 14-18/week)
+#### 3B. Learn Pages — pSEO at Scale (410+ pages, 800-1,500 words, 10/day baseline)
 
 | Category | Pages | Template | Priority |
 |----------|-------|----------|----------|
@@ -344,21 +344,42 @@ Organize content into hub-and-spoke clusters:
 | C: Translation & Localization | 30 | LEARN-PAGE-TEMPLATE.md | Weeks 7-14 |
 | D: TTS / STT | 20 | LEARN-PAGE-TEMPLATE.md | Weeks 8-14 |
 | E: Lip Sync & Visual | 10 | LEARN-PAGE-TEMPLATE.md | Weeks 10-14 |
-| F: Industry x Use Case | 50 | LEARN-PAGE-TEMPLATE.md | Weeks 6-14 |
+| F: Industry x Use Case | 53 | LEARN-PAGE-TEMPLATE.md | Weeks 6-14 |
 | G: Language Pages (30 languages + 30 pairs) | 60 | LANGUAGE-PAGE-TEMPLATE.md | Weeks 5-16 |
-| H: How-To Guides | 40 | LEARN-PAGE-TEMPLATE.md | Weeks 6-16 |
-| I: Comparisons & Reviews | 40 | COMPARISON-PAGE-TEMPLATE.md + LEARN-PAGE-TEMPLATE.md | Weeks 5-12 |
-| J: Technical Deep-Dives | 25 | LEARN-PAGE-TEMPLATE.md | Weeks 8-16 |
-| K: Business / ROI | 20 | LEARN-PAGE-TEMPLATE.md | Weeks 7-14 |
+| H: How-To Guides | 41 | LEARN-PAGE-TEMPLATE.md | Weeks 6-16 |
+| I: Comparisons & Reviews | 43 | COMPARISON-PAGE-TEMPLATE.md + LEARN-PAGE-TEMPLATE.md | Weeks 5-12 |
+| J: Technical Deep-Dives | 32 | LEARN-PAGE-TEMPLATE.md | Weeks 8-16 |
+| K: Business / ROI | 25 | LEARN-PAGE-TEMPLATE.md | Weeks 7-14 |
 | L: Persona Pages | 15 | PERSONA-PAGE-TEMPLATE.md | Weeks 5-12 |
 | M: Glossary | 30 | GLOSSARY-TEMPLATE.md | Weeks 8-18 |
 | N: AI Visibility Pages | 20 | LEARN-PAGE-TEMPLATE.md | Weeks 5-10 |
 
-#### 3C. Publishing Cadence
-- **Weeks 5-8**: P0 content first — fundamentals, top comparisons, top languages, AI visibility pages
-- **Weeks 9-14**: P1 content — industry verticals, how-tos, technical deep-dives, more languages
-- **Weeks 15-20**: P2 content — glossary, niche industries, remaining language pairs
-- **Weeks 21-24**: Gap fill, quality review, internal linking audit
+#### 3C. Publishing Cadence — 10/day Ramp-Up Model
+
+Learn pages are templated (800-1,500 words) and produced at a **baseline of 10 pages/day**, ramping up as the team builds velocity. Blog posts run in parallel at 4/week.
+
+| Week | Learn Pages/Day | Focus | Cumulative Pages |
+|------|----------------|-------|-----------------|
+| **Week 5** | 10/day | P0 fundamentals, AI visibility, top comparisons, personas | ~50 |
+| **Week 6** | 10/day | P0 languages, language pairs, how-tos, industry | ~100 |
+| **Week 7** | 10/day | P0 voice cloning, translation, more comparisons | ~150 |
+| **Week 8** | 10/day | P1 industry, TTS/STT, technical, reviews | ~200 |
+| **Week 9** | 12/day | P1 how-tos, more languages, business/ROI | ~260 |
+| **Week 10** | 12/day | P1 lip sync, technical deep-dives, glossary starts | ~320 |
+| **Week 11** | 10/day | P2 niche industries, remaining language pairs | ~370 |
+| **Week 12** | 8/day | P2 glossary, remaining comparisons, edge cases | ~410+ |
+| **Weeks 13-14** | 5/day | Stragglers, gap fill, quality review | ~450+ |
+| **Weeks 15-16** | — | Internal linking audit, QA pass, index monitoring | — |
+
+**Daily workflow:**
+1. Morning: Generate/review 10 learn pages from templates + CSV data
+2. Afternoon: Publish, add internal links, submit to Search Console
+3. End of day: QA check on previous day's pages (broken links, schema, formatting)
+
+**Ramp-up triggers** (increase from 10 → 12/day):
+- Team has established template familiarity (by Week 9)
+- No indexing issues flagged in Search Console
+- Quality benchmarks met on first 200 pages
 
 #### 3D. Templates (created in `templates/learn-pages/`)
 - [ ] `LEARN-PAGE-TEMPLATE.md` — For fundamentals, how-tos, technical, business, industry, comparisons, reviews, AI visibility pages
