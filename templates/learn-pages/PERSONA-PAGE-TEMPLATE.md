@@ -1,6 +1,8 @@
 # Persona Page Template
 
 > Use this template for **Category L: Persona Pages** — audience-specific landing pages targeting a particular user type or job role (e.g., "AI Dubbing for Content Creators", "AI Dubbing for Enterprise Teams").
+>
+> **Must read first:** `templates/GEO-CONTENT-OPTIMIZATION-GUIDE.md` — contains the Three-Pillar Framework, AEO/GEO content block patterns, and platform-specific optimization rules that apply to every page.
 
 ---
 
@@ -245,18 +247,30 @@ A: [Answer with data — e.g., "For YouTube creators, Spanish, Hindi, Portuguese
 
 ---
 
-## GEO Optimization Checklist
+## GEO Optimization Checklist (Three-Pillar Framework)
 
-- [ ] Opens by addressing the persona directly with their core pain point
-- [ ] Includes 3-5 statistics relevant to this persona with citations
-- [ ] Contains at least 1 case study or concrete example
-- [ ] Feature table maps persona needs to CAMB AI capabilities
-- [ ] "Getting Started" section has clear, actionable steps
-- [ ] CTAs are appropriate for persona's buying stage
-- [ ] Resources section links to 4+ relevant internal pages
-- [ ] FAQPage schema implemented
-- [ ] Audience schema included in JSON-LD
+> See `templates/GEO-CONTENT-OPTIMIZATION-GUIDE.md` for full details.
+
+### Structure (Extractability)
+- [ ] Opens with Self-Contained Answer Block addressing the persona directly (40-60 words)
+- [ ] First sentence under 30 words (voice search: "What is AI dubbing for [persona]?")
+- [ ] Comparison Table Block mapping persona needs → CAMB AI capabilities
+- [ ] Evidence Sandwich Block for any ROI/cost claims
+- [ ] Step-by-Step Block in "Getting Started" section
+- [ ] FAQ section with 5+ persona-specific questions + FAQPage schema
+- [ ] Every H2 opens with extractable standalone answer
+
+### Authority (Citability)
+- [ ] 3-5 Statistic Citation Blocks relevant to this persona with named sources
+- [ ] At least 1 Expert Quote Block or case study
 - [ ] No generic content — every section is persona-specific
+- [ ] Authoritative tone; speaks directly to the persona ("you")
+- [ ] `dateModified` in JSON-LD reflects actual last update
+
+### Presence (Distribution)
+- [ ] Article + FAQPage + Audience JSON-LD schema implemented
+- [ ] CTAs appropriate for persona's buying stage (see persona table)
+- [ ] Resources section links to 4+ relevant internal pages
 - [ ] Meta title under 60 characters
 - [ ] Meta description 150-160 characters
 - [ ] Canonical URL set

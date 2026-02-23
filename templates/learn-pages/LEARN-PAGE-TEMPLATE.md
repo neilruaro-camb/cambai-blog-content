@@ -1,6 +1,8 @@
 # Learn Page Template: Fundamentals & How-Tos
 
 > Use this template for **Category A (Fundamentals)**, **Category C (Translation)**, **Category D (TTS/STT)**, **Category E (Lip Sync)**, **Category H (How-To Guides)**, **Category J (Technical Deep-Dives)**, and **Category K (Business/ROI)** pages.
+>
+> **Must read first:** `templates/GEO-CONTENT-OPTIMIZATION-GUIDE.md` — contains the Three-Pillar Framework, AEO/GEO content block patterns, and platform-specific optimization rules that apply to every page.
 
 ---
 
@@ -71,41 +73,60 @@ Add `FAQPage` schema at the bottom (see FAQ section).
 ### H1: [Page Title]
 *Must match the `<title>` tag (minus "| CAMB AI"). Include the primary keyword naturally.*
 
-**Opening paragraph (40-60 words):**
-Start with a direct, concise answer to the question implied by the title. This paragraph is critical for GEO — AI engines extract the first 2-3 sentences for citations.
+**Opening paragraph — Self-Contained Answer Block (40-60 words):**
+Start with a direct, concise answer to the question implied by the title. This paragraph is the **#1 most important element for GEO** — AI engines extract the first 2-3 sentences for citations. It MUST function as a standalone answer if pulled out of context.
 
-Example for "What Is AI Dubbing?":
-> AI dubbing uses artificial intelligence to automatically translate and re-voice audio or video content into other languages while preserving the original speaker's voice characteristics. Unlike traditional dubbing, which requires human voice actors for each language, AI dubbing can produce natural-sounding translations in 150+ languages in minutes rather than weeks.
+**Voice search target:** The first sentence should directly answer the heading in **under 30 words**.
+
+Example for "What Is AI Dubbing?" (Definition Block pattern):
+> **AI dubbing** uses artificial intelligence to automatically translate and re-voice audio or video content into other languages while preserving the original speaker's voice characteristics. Unlike traditional dubbing, which requires human voice actors for each language, AI dubbing can produce natural-sounding translations in 150+ languages in minutes rather than weeks.
 
 ---
 
 ### H2: [Core Explanation / How It Works / Step-by-Step]
-*Primary educational section. 300-500 words.*
+*Primary educational section. 300-500 words. Open with a Self-Contained Answer Block.*
 
+**Required AEO/GEO block patterns in this section** (see `GEO-CONTENT-OPTIMIZATION-GUIDE.md`):
+
+1. **Self-Contained Answer Block** (40-60 words) — opens the section. Must work if extracted alone.
+2. **Step-by-Step Block** (for "how it works" topics) OR **Definition Block** (for concept topics)
+3. **Statistic Citation Block** — at least 1-2 per section
+4. **Expert Quote Block** — at least 1 per section
+
+Additional rules:
 - Use numbered lists for processes/steps
 - Use bullet points for features/benefits
-- Include **1-2 statistics** with citations (Princeton method: +37% visibility)
-- Include **1 expert quote or industry data point** (+30% visibility)
 - Use **technical terms** where appropriate (+18% visibility)
+- Every paragraph should be extractable — test by reading it alone
 
-**Statistic example:**
+**Statistic Citation Block example:**
 > According to [Grand View Research](https://www.grandviewresearch.com/), the global AI dubbing market is projected to reach $3.57 billion by 2034, growing at a 14.6% CAGR — reflecting massive enterprise adoption of automated localization.
 
-**Quote example:**
-> "Real-time AI dubbing represents a paradigm shift in how global audiences consume live content," notes the CAMB AI engineering team. "With sub-500ms latency, DubStream delivers dubbed audio faster than the human ear can detect delay."
+**Expert Quote Block example:**
+> "Real-time AI dubbing represents a paradigm shift in how global audiences consume live content," says [Name], [Title] at CAMB AI. "With sub-500ms latency, DubStream delivers dubbed audio faster than the human ear can detect delay."
+
+**Evidence Sandwich Block example (for cost/performance claims):**
+> AI dubbing delivers dramatic cost savings over traditional methods:
+> - Traditional dubbing: $500–$2,000 per minute of finished audio
+> - AI dubbing: $0.50–$1.50 per minute (98-99% reduction)
+> - Production time: weeks → minutes for a 10-minute video
+>
+> These savings compound at scale — an enterprise dubbing 1,000 hours annually saves $2-4M.
 
 ---
 
 ### H2: [Key Benefits / Why It Matters / When to Use]
-*Secondary section. 200-400 words.*
+*Secondary section. 200-400 words. Open with a Self-Contained Answer Block.*
 
-Present as a comparison table or bullet list where possible. AI engines extract tables effectively.
+**Use Comparison Table Block pattern** — comparison content drives ~33% of all AI citations:
 
 | Feature | Traditional Approach | AI-Powered (CAMB AI) |
 |---------|---------------------|----------------------|
 | [Feature 1] | [Traditional] | [AI / CAMB AI advantage] |
 | [Feature 2] | [Traditional] | [AI / CAMB AI advantage] |
 | [Feature 3] | [Traditional] | [AI / CAMB AI advantage] |
+
+For decision-oriented topics, also include a **Pros and Cons Block**.
 
 ---
 
@@ -137,7 +158,7 @@ Include a CTA:
 
 ### H2: Frequently Asked Questions
 
-*5-7 FAQ items. Each answer should be 2-4 sentences. Mark up with FAQPage schema.*
+*5-7 FAQ items using the FAQ Block pattern. Each answer should be 2-4 sentences (under 30 words for the first sentence — voice search target). Mark up with FAQPage schema. Perplexity prioritizes FAQ Schema content.*
 
 **Q: [Question matching a long-tail search query]?**
 A: [Direct, concise answer. Include relevant keywords naturally.]
@@ -189,30 +210,50 @@ A: [Transparent answer that builds trust.]
 |-----------|--------|
 | Word count | 800-1,500 words |
 | Reading level | Grade 8-10 (accessible but authoritative) |
-| Statistics per page | 3-5 with citations |
+| Statistics per page | 3-5 with named source citations (Statistic Citation Blocks) |
+| Expert quotes per page | 1-2 (Expert Quote Blocks with name + title + org) |
+| Self-contained answer blocks | 1 per H2 section (40-60 words, extractable alone) |
 | Internal links | 5-8 per page |
 | Images/diagrams | 1-3 (with descriptive alt text) |
 | Tone | Confident, authoritative, educational |
 | Primary keyword density | 1-2% (avoid stuffing) |
-| Update frequency | Quarterly review |
+| Voice search answers | First sentence of each section under 30 words |
+| Update frequency | Quarterly for blog/how-to; monthly for comparisons/pricing |
+| `dateModified` schema | Must reflect actual last update date |
 
 ---
 
-## GEO Optimization Checklist
+## GEO Optimization Checklist (Three-Pillar Framework)
 
-- [ ] Opens with a direct answer in the first 40-60 words
-- [ ] Includes 3-5 statistics with source citations
-- [ ] Contains at least 1 expert quote or authoritative data point
-- [ ] Uses technical terms naturally (not forced)
-- [ ] Has clear H1 > H2 > H3 hierarchy
-- [ ] Includes a comparison table or structured data
-- [ ] FAQPage schema implemented
+> See `templates/GEO-CONTENT-OPTIMIZATION-GUIDE.md` for full details on each item.
+
+### Structure (Extractability)
+- [ ] Opens with a Self-Contained Answer Block in the first 40-60 words
+- [ ] First sentence of opening answers the title question in under 30 words (voice search)
+- [ ] Every H2 section opens with a self-contained answer block (works if extracted alone)
+- [ ] H2 headings phrased as questions where possible (matches query patterns)
+- [ ] Includes a Comparison Table Block or structured data
+- [ ] Step-by-Step Block used for any process content
+- [ ] Evidence Sandwich Block used for any cost/performance claims
+- [ ] FAQPage schema implemented with 5+ natural-language questions
 - [ ] TL;DR box at top
+- [ ] Has clear H1 > H2 > H3 hierarchy (no skipped levels)
+
+### Authority (Citability)
+- [ ] 3-5 Statistic Citation Blocks with named sources ("According to [Source], ...")
+- [ ] At least 1 Expert Quote Block (name + title + organization)
+- [ ] Authoritative, confident tone — no hedging words (maybe, potentially, could)
+- [ ] Technical terms used naturally and defined on first use
 - [ ] No keyword stuffing (reads naturally)
 - [ ] All claims backed by data or citations
+- [ ] `dateModified` in JSON-LD reflects actual last update
+
+### Presence (Distribution)
+- [ ] Article + FAQPage JSON-LD schema implemented and validated
 - [ ] CTA to CAMB AI product/demo
-- [ ] 5+ internal links to related content
+- [ ] 5+ internal links to related content (from CSV `related_slugs`)
+- [ ] Links to at least 1 product page (DubStream, DubStudio, or API)
 - [ ] Meta title 50-60 characters
-- [ ] Meta description 150-160 characters
+- [ ] Meta description 150-160 characters (starts with direct answer)
 - [ ] Canonical URL set
 - [ ] OG and Twitter Card tags set

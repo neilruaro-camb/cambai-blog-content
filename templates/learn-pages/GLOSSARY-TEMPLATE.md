@@ -1,6 +1,8 @@
 # Glossary Page Template
 
 > Use this template for **Category M: Glossary** pages — short-form definition pages targeting "what is [term]?" search queries.
+>
+> **Must read first:** `templates/GEO-CONTENT-OPTIMIZATION-GUIDE.md` — contains the Three-Pillar Framework, AEO/GEO content block patterns (especially the **Definition Block** pattern), and platform-specific optimization rules.
 
 ---
 
@@ -164,16 +166,28 @@ A: [Practical significance.]
 
 ---
 
-## GEO Optimization Checklist
+## GEO Optimization Checklist (Three-Pillar Framework)
 
-- [ ] Definition box is under 50 words and directly answers "What is [term]?"
-- [ ] Opening paragraph expands definition in 40-60 words
-- [ ] Includes at least 1 statistic with citation
-- [ ] "Why it matters" section connects to AI dubbing
-- [ ] Related terms table links to other glossary pages
+> See `templates/GEO-CONTENT-OPTIMIZATION-GUIDE.md` for full details.
+
+### Structure (Extractability)
+- [ ] **Definition Block** (under 50 words) directly answers "What is [term]?" — featured snippet target
+- [ ] Opening paragraph expands definition as Self-Contained Answer Block (40-60 words)
+- [ ] First sentence is under 30 words (voice search: "What is [term]?" → direct answer)
+- [ ] "How it works" section uses Step-by-Step or analogy format
+- [ ] Related terms table provides structured internal links
+- [ ] FAQ section with 3+ natural-language questions + FAQPage schema
+
+### Authority (Citability)
+- [ ] At least 1 Statistic Citation Block with named source
+- [ ] "Why it matters for AI dubbing" section — unique per term, not generic
+- [ ] Authoritative, confident tone
+- [ ] `dateModified` in JSON-LD reflects actual last update
+
+### Presence (Distribution)
+- [ ] DefinedTerm + FAQPage JSON-LD schema implemented
 - [ ] Link to deeper learn page for the topic
-- [ ] FAQPage schema implemented
-- [ ] DefinedTerm schema implemented
+- [ ] Related terms table links to 3+ other glossary pages
 - [ ] Meta title under 60 characters
 - [ ] Meta description 150-160 characters
 - [ ] Canonical URL set

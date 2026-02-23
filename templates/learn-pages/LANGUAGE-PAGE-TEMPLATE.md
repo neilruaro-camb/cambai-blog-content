@@ -1,6 +1,8 @@
 # Language Page Template
 
 > Use this template for **Category G: Language-Specific Pages** — both single-language pages (e.g., "AI Dubbing in Spanish") and language-pair pages (e.g., "English to Spanish AI Dubbing").
+>
+> **Must read first:** `templates/GEO-CONTENT-OPTIMIZATION-GUIDE.md` — contains the Three-Pillar Framework, AEO/GEO content block patterns, and platform-specific optimization rules that apply to every page.
 
 ---
 
@@ -236,14 +238,28 @@ A: [List supported dialects.]
 
 ---
 
-## GEO Optimization Checklist
+## GEO Optimization Checklist (Three-Pillar Framework)
 
-- [ ] Opens with speaker count and direct answer
-- [ ] Includes language-specific market data with citations
-- [ ] Covers unique linguistic challenges (not generic)
-- [ ] Has comparison table (CAMB AI capabilities for this language)
-- [ ] FAQPage schema implemented
+> See `templates/GEO-CONTENT-OPTIMIZATION-GUIDE.md` for full details.
+
+### Structure (Extractability)
+- [ ] Opens with Self-Contained Answer Block: speaker count + direct answer in 40-60 words
+- [ ] First sentence answers the page question in under 30 words (voice search)
+- [ ] Every H2 section opens with a self-contained answer block
+- [ ] Comparison table (CAMB AI capabilities for this language)
+- [ ] Step-by-Step Block for "How AI Dubbing in [Language] Works" section
+- [ ] FAQ section with 5+ natural-language questions + FAQPage schema
 - [ ] TL;DR box at top
+
+### Authority (Citability)
+- [ ] 2-4 Statistic Citation Blocks with named sources (market size, speaker count, content demand)
+- [ ] Language-specific market data (not generic)
+- [ ] Covers unique linguistic challenges (tonal, RTL, dialect, etc.) — demonstrates expertise
+- [ ] Authoritative tone, no hedging
+- [ ] `dateModified` in JSON-LD reflects actual last update
+
+### Presence (Distribution)
+- [ ] Article + FAQPage + Language JSON-LD schema implemented
 - [ ] Links to 4+ related language pages (internal linking cluster)
 - [ ] Links to relevant industry/use-case pages
 - [ ] CTA to CAMB AI product/demo
