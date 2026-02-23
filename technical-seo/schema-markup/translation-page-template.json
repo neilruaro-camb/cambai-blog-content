@@ -1,0 +1,90 @@
+{
+  "_comment": "TEMPLATE: For /translate/ pages. Replace {{PLACEHOLDERS}}.",
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "SoftwareApplication",
+      "name": "CAMB.AI {{SOURCE_LANG}} to {{TARGET_LANG}} Translator",
+      "description": "Free AI-powered {{SOURCE_LANG}} to {{TARGET_LANG}} translation with voice dubbing, text-to-speech, and voice cloning. Translate audio, video, and text instantly with CAMB.AI.",
+      "url": "https://www.camb.ai/translate/{{SOURCE_LANG_SLUG}}-to-{{TARGET_LANG_SLUG}}",
+      "applicationCategory": "MultimediaApplication",
+      "operatingSystem": "Web",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD",
+        "description": "Free tier available"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.7",
+        "ratingCount": "{{REVIEW_COUNT}}",
+        "bestRating": "5"
+      },
+      "featureList": [
+        "AI Voice Dubbing",
+        "Text Translation",
+        "Voice Cloning",
+        "Real-Time Translation",
+        "150+ Languages Supported"
+      ],
+      "publisher": {
+        "@type": "Organization",
+        "name": "CAMB.AI",
+        "url": "https://www.camb.ai"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How accurate is CAMB.AI's {{SOURCE_LANG}} to {{TARGET_LANG}} translation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "CAMB.AI uses advanced neural machine translation and AI dubbing technology to deliver high-accuracy {{SOURCE_LANG}} to {{TARGET_LANG}} translations. Our models are trained on millions of language pairs and continuously improved for natural-sounding output."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I translate {{SOURCE_LANG}} audio and video to {{TARGET_LANG}}?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. CAMB.AI supports audio and video translation from {{SOURCE_LANG}} to {{TARGET_LANG}} with AI dubbing. Upload your file and receive a dubbed version with natural-sounding voices in {{TARGET_LANG}}, preserving the original speaker's tone and emotion."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is the {{SOURCE_LANG}} to {{TARGET_LANG}} translator free?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "CAMB.AI offers a free tier for {{SOURCE_LANG}} to {{TARGET_LANG}} translation with limited usage. For higher volumes, enterprise dubbing, and API access, paid plans are available."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.camb.ai"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Translate",
+          "item": "https://www.camb.ai/translate"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "{{SOURCE_LANG}} to {{TARGET_LANG}}",
+          "item": "https://www.camb.ai/translate/{{SOURCE_LANG_SLUG}}-to-{{TARGET_LANG_SLUG}}"
+        }
+      ]
+    }
+  ]
+}

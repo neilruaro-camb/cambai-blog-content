@@ -1,0 +1,60 @@
+{
+  "_comment": "TEMPLATE: For product pages (Mars, Streams). Replace {{PLACEHOLDERS}}.",
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Product",
+      "name": "CAMB.AI {{PRODUCT_NAME}}",
+      "description": "{{PRODUCT_DESCRIPTION}}",
+      "url": "https://www.camb.ai/{{PRODUCT_SLUG}}",
+      "brand": {
+        "@type": "Organization",
+        "name": "CAMB.AI"
+      },
+      "image": "{{PRODUCT_IMAGE_URL}}",
+      "category": "AI Localization Software",
+      "offers": {
+        "@type": "AggregateOffer",
+        "lowPrice": "0",
+        "highPrice": "{{HIGH_PRICE}}",
+        "priceCurrency": "USD",
+        "offerCount": "{{NUM_PLANS}}",
+        "availability": "https://schema.org/InStock"
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Languages Supported",
+          "value": "150+"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "{{FEATURE_1_NAME}}",
+          "value": "{{FEATURE_1_VALUE}}"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "{{FEATURE_2_NAME}}",
+          "value": "{{FEATURE_2_VALUE}}"
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.camb.ai"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "{{PRODUCT_NAME}}",
+          "item": "https://www.camb.ai/{{PRODUCT_SLUG}}"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+# robots.txt for camb.ai
+# Last updated: 2026-02-08
+#
+# This file explicitly allows all major search engine and AI crawlers.
+# Upload this to: https://www.camb.ai/robots.txt
+# In Webflow: Site Settings > SEO > Custom Robots.txt
+
+User-agent: *
+Allow: /
+
+# Google Search
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+# Google AI (Gemini, AI Overviews)
+User-agent: Google-Extended
+Allow: /
+
+# Bing Search
+User-agent: Bingbot
+Allow: /
+
+# OpenAI / ChatGPT
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+# Anthropic / Claude
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+# Perplexity
+User-agent: PerplexityBot
+Allow: /
+
+# Meta AI
+User-agent: FacebookBot
+Allow: /
+
+User-agent: meta-externalagent
+Allow: /
+
+# Apple (Siri, Spotlight)
+User-agent: Applebot
+Allow: /
+
+# Brave Search
+User-agent: Brave
+Allow: /
+
+# Common crawlers used by AI training
+User-agent: CCBot
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+# Sitemaps
+Sitemap: https://www.camb.ai/sitemap.xml
+Sitemap: https://www.camb.ai/sitemap-pages.xml
+Sitemap: https://www.camb.ai/sitemap-blog.xml
+Sitemap: https://www.camb.ai/sitemap-translate.xml
+Sitemap: https://www.camb.ai/sitemap-events.xml

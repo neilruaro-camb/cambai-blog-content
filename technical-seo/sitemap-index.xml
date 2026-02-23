@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Sitemap Index for camb.ai
+  Replace the existing single sitemap with this index + sub-sitemaps.
+  Upload to: https://www.camb.ai/sitemap.xml
+
+  Note: Webflow auto-generates sitemaps. You may need to use custom code
+  or a reverse proxy to serve custom sitemaps. Alternative: submit these
+  directly in Google Search Console and Bing Webmaster Tools.
+-->
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <sitemap>
+    <loc>https://www.camb.ai/sitemap-pages.xml</loc>
+    <lastmod>2026-02-08</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://www.camb.ai/sitemap-blog.xml</loc>
+    <lastmod>2026-02-08</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://www.camb.ai/sitemap-translate.xml</loc>
+    <lastmod>2026-02-08</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://www.camb.ai/sitemap-events.xml</loc>
+    <lastmod>2026-02-08</lastmod>
+  </sitemap>
+</sitemapindex>

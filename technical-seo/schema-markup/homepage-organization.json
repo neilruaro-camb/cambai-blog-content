@@ -1,0 +1,40 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "CAMB.AI",
+  "url": "https://www.camb.ai",
+  "logo": "https://www.camb.ai/images/camb-ai-logo.png",
+  "description": "CAMB.AI is an AI-powered localization platform offering dubbing, voice translation, and text-to-speech in 150+ languages. Trusted by IMAX, Australian Open, MLB, and FanCode.",
+  "foundingDate": "2021",
+  "founders": [
+    {
+      "@type": "Person",
+      "name": "Akshat Prakash",
+      "jobTitle": "CEO & Co-Founder"
+    }
+  ],
+  "sameAs": [
+    "https://www.linkedin.com/company/cambai/",
+    "https://twitter.com/camaborai",
+    "https://www.youtube.com/@camb-ai",
+    "https://www.crunchbase.com/organization/camb-ai",
+    "https://github.com/camb-ai"
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "sales",
+    "url": "https://www.camb.ai/contact"
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "addressCountry": "US"
+  },
+  "knowsAbout": [
+    "AI Dubbing",
+    "Voice Translation",
+    "Text-to-Speech",
+    "AI Localization",
+    "Voice Cloning",
+    "Real-Time Translation"
+  ]
+}

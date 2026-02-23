@@ -1,0 +1,89 @@
+{
+  "_comment": "TEMPLATE: For /compare/ pages. Replace {{PLACEHOLDERS}}.",
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "name": "CAMB.AI vs {{COMPETITOR}} — AI Dubbing & Translation Comparison (2026)",
+      "description": "Detailed comparison of CAMB.AI and {{COMPETITOR}} for AI dubbing, voice translation, and text-to-speech. Features, pricing, language support, and use cases compared.",
+      "url": "https://www.camb.ai/compare/camb-ai-vs-{{COMPETITOR_SLUG}}",
+      "datePublished": "{{YYYY-MM-DD}}",
+      "dateModified": "{{YYYY-MM-DD}}",
+      "author": {
+        "@type": "Organization",
+        "name": "CAMB.AI"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "CAMB.AI",
+        "url": "https://www.camb.ai"
+      },
+      "about": [
+        {
+          "@type": "SoftwareApplication",
+          "name": "CAMB.AI",
+          "url": "https://www.camb.ai",
+          "applicationCategory": "MultimediaApplication"
+        },
+        {
+          "@type": "SoftwareApplication",
+          "name": "{{COMPETITOR}}",
+          "url": "{{COMPETITOR_URL}}",
+          "applicationCategory": "MultimediaApplication"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the difference between CAMB.AI and {{COMPETITOR}}?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "{{DIFFERENCE_ANSWER}}"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is CAMB.AI better than {{COMPETITOR}} for dubbing?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "{{BETTER_FOR_DUBBING_ANSWER}}"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does CAMB.AI pricing compare to {{COMPETITOR}}?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "{{PRICING_COMPARISON_ANSWER}}"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.camb.ai"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Compare",
+          "item": "https://www.camb.ai/compare"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "CAMB.AI vs {{COMPETITOR}}",
+          "item": "https://www.camb.ai/compare/camb-ai-vs-{{COMPETITOR_SLUG}}"
+        }
+      ]
+    }
+  ]
+}

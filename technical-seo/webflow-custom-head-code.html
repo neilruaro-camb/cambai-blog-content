@@ -1,0 +1,80 @@
+<!--
+  WEBFLOW SITE-WIDE CUSTOM HEAD CODE
+  ====================================
+  Add this to: Site Settings > Custom Code > Head Code
+  This applies to ALL pages on camb.ai.
+
+  Contents:
+  1. Site-wide Twitter Card defaults
+  2. Organization schema (JSON-LD)
+  3. WebSite schema (JSON-LD)
+  4. Favicon and theme color
+  5. Preconnect hints for performance
+-->
+
+<!-- 1. Twitter Card Defaults -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@camaborai">
+
+<!-- 2. Theme Color (for mobile browsers) -->
+<meta name="theme-color" content="#000000">
+
+<!-- 3. Preconnect hints for performance -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<!-- 4. Organization Schema (site-wide) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "CAMB.AI",
+  "url": "https://www.camb.ai",
+  "logo": "https://www.camb.ai/images/camb-ai-logo.png",
+  "description": "CAMB.AI is an AI-powered localization platform offering dubbing, voice translation, and text-to-speech in 150+ languages. Trusted by IMAX, Australian Open, MLB, and FanCode.",
+  "foundingDate": "2021",
+  "founders": [
+    {
+      "@type": "Person",
+      "name": "Akshat Prakash",
+      "jobTitle": "CEO & Co-Founder"
+    }
+  ],
+  "sameAs": [
+    "https://www.linkedin.com/company/cambai/",
+    "https://twitter.com/camaborai",
+    "https://www.youtube.com/@camb-ai",
+    "https://www.crunchbase.com/organization/camb-ai",
+    "https://github.com/camb-ai"
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "sales",
+    "url": "https://www.camb.ai/contact"
+  },
+  "knowsAbout": [
+    "AI Dubbing",
+    "Voice Translation",
+    "Text-to-Speech",
+    "AI Localization",
+    "Voice Cloning",
+    "Real-Time Translation"
+  ]
+}
+</script>
+
+<!-- 5. WebSite Schema (site-wide) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "CAMB.AI",
+  "url": "https://www.camb.ai",
+  "description": "AI-powered dubbing, voice translation, and text-to-speech platform supporting 150+ languages.",
+  "publisher": {
+    "@type": "Organization",
+    "name": "CAMB.AI",
+    "url": "https://www.camb.ai"
+  }
+}
+</script>

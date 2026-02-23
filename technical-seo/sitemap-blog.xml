@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Blog Sitemap for camb.ai
+  Includes: all blog posts
+  Priority: 0.7-0.8
+
+  NOTE: This is a template. Populate with actual blog post URLs from
+  https://www.camb.ai/sitemap.xml (filter for /blog-post/ URLs).
+  Update <lastmod> dates to actual publish/update dates.
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Example entries — replace with actual blog posts -->
+  <url>
+    <loc>https://www.camb.ai/blog-post/ai-dubbing-vs-traditional-dubbing</loc>
+    <lastmod>2026-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.camb.ai/blog-post/what-is-ai-dubbing</loc>
+    <lastmod>2026-01-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!--
+    Add all 170+ blog posts here.
+    High-performing posts: priority 0.8
+    Standard posts: priority 0.7
+    Older/lower-traffic posts: priority 0.6
+  -->
+</urlset>

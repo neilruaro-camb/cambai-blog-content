@@ -1,0 +1,38 @@
+{
+  "_comment": "TEMPLATE: For /events/ pages. Replace {{PLACEHOLDERS}}.",
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "{{EVENT_NAME}}",
+  "description": "{{EVENT_DESCRIPTION}}",
+  "url": "https://www.camb.ai/events/{{EVENT_SLUG}}",
+  "startDate": "{{YYYY-MM-DDTHH:MM:SS+00:00}}",
+  "endDate": "{{YYYY-MM-DDTHH:MM:SS+00:00}}",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "eventAttendanceMode": "https://schema.org/{{ATTENDANCE_MODE}}",
+  "location": {
+    "@type": "{{LOCATION_TYPE}}",
+    "name": "{{LOCATION_NAME}}",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "{{STREET}}",
+      "addressLocality": "{{CITY}}",
+      "addressRegion": "{{STATE}}",
+      "postalCode": "{{ZIP}}",
+      "addressCountry": "{{COUNTRY}}"
+    }
+  },
+  "organizer": {
+    "@type": "Organization",
+    "name": "CAMB.AI",
+    "url": "https://www.camb.ai"
+  },
+  "image": "{{EVENT_IMAGE_URL}}",
+  "offers": {
+    "@type": "Offer",
+    "url": "{{TICKET_URL}}",
+    "price": "{{PRICE}}",
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock",
+    "validFrom": "{{SALE_START_DATE}}"
+  }
+}

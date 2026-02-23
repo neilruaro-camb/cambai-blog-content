@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Translation Pages Sitemap for camb.ai
+  Includes: all /translate/ language pair pages
+  Priority: 0.4-0.6 (lower than core pages to preserve crawl budget)
+
+  NOTE: This is a template. Populate with actual translation URLs from
+  https://www.camb.ai/sitemap.xml (filter for /translate/ URLs).
+
+  STRATEGY: Prioritize top 30 high-traffic language pairs at 0.6,
+  set remaining 970+ pairs at 0.4.
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- TOP 30 HIGH-TRAFFIC LANGUAGE PAIRS — Priority 0.6 -->
+  <url>
+    <loc>https://www.camb.ai/translate/english-to-spanish</loc>
+    <lastmod>2026-02-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.camb.ai/translate/english-to-french</loc>
+    <lastmod>2026-02-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.camb.ai/translate/english-to-german</loc>
+    <lastmod>2026-02-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.camb.ai/translate/english-to-hindi</loc>
+    <lastmod>2026-02-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.camb.ai/translate/english-to-japanese</loc>
+    <lastmod>2026-02-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.camb.ai/translate/english-to-korean</loc>
+    <lastmod>2026-02-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.camb.ai/translate/english-to-portuguese</loc>
+    <lastmod>2026-02-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.camb.ai/translate/english-to-chinese</loc>
+    <lastmod>2026-02-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.camb.ai/translate/english-to-arabic</loc>
+    <lastmod>2026-02-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.camb.ai/translate/english-to-italian</loc>
+    <lastmod>2026-02-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.camb.ai/translate/spanish-to-english</loc>
+    <lastmod>2026-02-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.camb.ai/translate/french-to-english</loc>
+    <lastmod>2026-02-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.camb.ai/translate/english-to-turkish</loc>
+    <lastmod>2026-02-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.camb.ai/translate/english-to-russian</loc>
+    <lastmod>2026-02-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.camb.ai/translate/english-to-indonesian</loc>
+    <lastmod>2026-02-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <!--
+    Add remaining top 15 high-traffic pairs here at priority 0.6.
+    Determine these from Google Search Console data (highest impressions/clicks).
+
+    ALL OTHER translation pairs: priority 0.4
+    Example:
+    <url>
+      <loc>https://www.camb.ai/translate/afrikaans-to-albanian</loc>
+      <lastmod>2026-02-08</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.4</priority>
+    </url>
+  -->
+</urlset>
